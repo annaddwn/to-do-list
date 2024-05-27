@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEADLINE</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><a href="navigasi.html">PROJECT BASDAT</a></div>
+            <ul class="links">
+              <li><a href="navigasi.html">Home</a></li>
+              <li><a href="dead.html">Deadline</a></li>
+              <li><a href="notes.html">Catatan</a></li>
+              <li><a href="record.html">Record Zoom</a></li>
+              
+          </div>
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
+
+    <div class="wrapper">
+        <div class="container bg-white shadow">
+            <h2 class="container-header text-center">NOTES</h2>
+            <form class="form" action="#" id="form">
+                <div class="form-group form-title">
+                    <label for="title">Masukkan Materi/Sub-bab</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group form-title">
+                    <label for="notes">Masukkan Notes</label>
+                    <textarea type="text" id="notes" name="notes" style="resize: none;" rows="5"></textarea>
+                </div>
+               
+                <input type="submit" value="Submit" name="Submit" class="btn-submit">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2 class="container-header">Notes</h2>
+            <div class="list-item" id="todos">
+                
+            </div>
+        </div>
+
+        
+    </div>
+    
+    
+</body>
+
+</html>
